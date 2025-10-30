@@ -1,15 +1,24 @@
-name: simple job
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
-   
+    branches:
+      - main
+
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: print drployment massage
-        run: echo "Deploying website...."
+      - name: Checkout
+        uses: actions/checkout@v4
 
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
       
