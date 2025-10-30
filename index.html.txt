@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>A Simple HTML Document</title>
+</head>
+<body>
+   <p>Hello World!</p>
+</body>
+</html>
 html
 <!DOCTYPE html>
 <html>
@@ -37,6 +46,7 @@ html#3
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     **<meta charset="UTF-8">**
     \*\*<meta name="viewport" content="width=device-width, initial-scale=1.0">\*\*
     \\\*\\\*<title>My First HTML Page</title>\\\*\\\*
@@ -133,3 +143,10 @@ html#3
     <p>Learn more about HTML <a href="https://www.w3schools.com/html/" target="_blank">here</a>.</p>
 </body>
 </html>
+
+   
+
+</body>
+</html>
+email
+
